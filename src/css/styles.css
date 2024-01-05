@@ -1,12 +1,6 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+@import url('./gallery.css');
+@import url('./form.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -22,4 +16,31 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+/* .btn {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  transition: background-color 250ms ease-in;
+  padding: 8px 16px;
+  margin-bottom: 15px;
+}
+
+.btn:hover {
+  background-color: #6c8cff;
+} */
+.btn {
+  color: #242424;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.btn:hover {
+  color: #6c8cff;
 }
